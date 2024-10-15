@@ -7,11 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      animation: {
+        bounce:
+          "bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite",
       },
+      keyframes: {
+        bounce: {
+          from: { transform: "translateY(10px)" },
+          to: { transform: "translateY(0)" },
+        }
+      }
     },
   },
+
   plugins: [],
 };
