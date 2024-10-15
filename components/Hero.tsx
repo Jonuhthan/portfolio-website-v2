@@ -17,7 +17,7 @@ const Hero = () => {
                 <p className='text-lg mt-8 mb-8 md:text-2xl'>
                     I'm a second-year {" "}
                     <span className='font-semibold text-teal-600'>
-                    Computer Science Student {" "}
+                    Computer Science student {" "}
                     </span>
                     at the University of Virginia. I'm based in Northern Virginia and love developing software to solve real-world
                     problems that simplifies our daily lives.
