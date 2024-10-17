@@ -55,7 +55,7 @@ const About = () => {
               {skills.map((item, idx) => {
                 return <p 
                         key={idx}
-                        className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                        className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-black rounded font-semibold"
                         >
                           {item.skill}
                         </p>
