@@ -79,7 +79,7 @@ const Projects = () => {
                     </SlideUp>
                 </div>
                 )
-            })};
+            })}
         </div>
     </section>
   )
