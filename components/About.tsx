@@ -17,8 +17,11 @@ const skills = [
 const About = () => {
   return (
     <section id="about">
-      <div>
-        <h1 className='text-center font-bold text-4xl'>About Me</h1>
+      <div className="my-12 pb-12 md:pt-16 md:pb-48">
+        <h1 className='text-center font-bold text-4xl'>
+          About Me
+          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
+        </h1>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className='md:w-1/2'>
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
