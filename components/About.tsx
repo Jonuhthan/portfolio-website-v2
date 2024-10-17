@@ -1,5 +1,19 @@
 import React from 'react'
 
+const skills = [
+  { skill: "Python" },
+  { skill: "Java" },
+  { skill: "JavaScript" },
+  { skill: "React" },
+  { skill: "Node" },
+  { skill: "Next.js" },
+  { skill: "Tailwind CSS" },
+  { skill: "OpenCV" },
+  { skill: "SQL" },
+  { skill: "Bash" },
+  { skill: "Git" },
+]
+
 const About = () => {
   return (
     <section id="about">
@@ -31,8 +45,19 @@ const About = () => {
             </p>
           </div>
           <div className='md:w-1/2'>
-            <h1>My Skills</h1>
-            <p>Skills go here</p>
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+              My Skills
+            </h1>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {skills.map((item, idx) => {
+                return <p 
+                        key={idx}
+                        className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                        >
+                          {item.skill}
+                        </p>
+              })}
+            </div>
           </div>
         </div>
       </div>
