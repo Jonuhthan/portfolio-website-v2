@@ -39,25 +39,21 @@ const About = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>
-              Hi, my name is Jonathan Lam and I am a second-year {" "}
-              <span className='font-semibold text-sky-500'>
-                Computer Science and Data Science student {" "}
-              </span>
-              at the University of Virginia.
-            </p>
-            <br />
-            <p>
-              I have a deep passion for computer programming and developing technical solutions for real-world problems.
-            </p>
-            <br />
-            <p>
-              In my spare time, I enjoy playing & watching basketball, rock climbing, going to the gym, and gardening.
-            </p>
-            <br />
-            <p>
-              I'm always looking for new opportunities to learn and grow within the software development field. Please feel free to contact me at jonhaolam@gmail.com.
-            </p>
+            <div className='text-xl'>
+              <p>
+                I'm a second-year student at the University of Virginia studying Computer Science, with a minor in Data Science.
+                My interest in Computer Science stems from a passion for problem-solving and being able to make a positive impact on others through innovation and automation.
+                
+              </p>
+              <br />
+              <p>
+                In my spare time, I enjoy playing & watching basketball, rock climbing, going to the gym, and gardening.
+              </p>
+              <br />
+              <p>
+                I'm always looking for new opportunities to learn and grow within the field. Please feel free to contact me at <a href="mailto:jonhaolam@gmail.com" className="text-blue-500 underline"> jonhaolam@gmail.com</a>.
+              </p>
+            </div>
           </div>
           <div className='md:w-1/2'>
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
