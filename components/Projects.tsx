@@ -6,25 +6,25 @@ import SlideUp from './SlideUp';
 
 const projectsList = [
     {
-        name: "Project 1",
-        description: "Project 1 description",
-        image: "",
-        github: "",
-        link: "",
+        name: "RateMate",
+        description: "Next.js, Pinecone, and Google Gemini web application with query and filter functionality on professor review data and RAG-AI chatbot for personalized suggestions.",
+        image: "/RateMate.png",
+        github: "https://github.com/boffskbob/rate-mate",
+        link: "https://github.com/boffskbob/rate-mate",
     },
     {
-        name: "Project 2",
-        description: "Project 2 description",
-        image: "",
-        github: "",
-        link: "",
+        name: "Movie Picker",
+        description: "Full-stack application built with Next.js and Express.js to perform CRUD operations on movie catalogs.",
+        image: "/MoviePicker.png",
+        github: "https://github.com/Jonuhthan/movie-picker",
+        link: "https://github.com/Jonuhthan/movie-picker",
     },    
     {
-        name: "Project 3",
-        description: "Project 3 description",
-        image: "",
-        github: "",
-        link: "",
+        name: "Nothing But Nutrition!",
+        description: "Flask web application powered by OpenFoodFacts API to scan UPC food item barcodes and return relevant macronutrient/allergen data.",
+        image: "/NothingButNutrition.png",
+        github: "https://github.com/Jonuhthan/nutrition-tracker-app",
+        link: "https://github.com/Jonuhthan/nutrition-tracker-app",
     }
 ];
 
@@ -50,15 +50,15 @@ const Projects = () => {
                                     <Image
                                         src={project.image}
                                         alt=""
-                                        width={1000}
-                                        height={1000}
+                                        width={1250}
+                                        height={1250}
                                         className="rounded-xl shadow-xl hover:opacity-70"
                                     />
                                 </Link>
 
                             </div>
                             {/* text section for each project */}
-                            <div className='md:w-1/2 mt-12'>
+                            <div className='md:w-1/2 mt-10'>
                                 <h1 className='text-4xl font-bold mb-6'>
                                     {project.name}
                                 </h1>
