@@ -41,7 +41,7 @@ const About = () => {
             </h1>
             <div className='text-xl'>
               <p>
-                I'm a second-year student at the University of Virginia studying Computer Science, with a minor in Data Science.
+                I&#39;m a second-year student at the University of Virginia studying Computer Science, with a minor in Data Science.
                 My interest in Computer Science stems from a passion for problem-solving and being able to make a positive impact on others through innovation and automation.
                 
               </p>
@@ -51,7 +51,7 @@ const About = () => {
               </p>
               <br />
               <p>
-                I'm always looking for new opportunities to learn and grow within the field. Please feel free to contact me at <a href="mailto:jonhaolam@gmail.com" className="text-blue-500 underline"> jonhaolam@gmail.com</a>.
+                I&#39;m always looking for new opportunities to learn and grow within the field. Please feel free to contact me at <a href="mailto:jonhaolam@gmail.com" className="text-blue-500 underline"> jonhaolam@gmail.com</a>.
               </p>
             </div>
           </div>

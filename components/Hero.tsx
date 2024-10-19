@@ -13,9 +13,9 @@ const Hero = () => {
                 <Image className='rounded-3xl shadow-2xl' src="/profile.jpg" alt="missing" width={350} height={350}/>
             </div>
             <div className='md:mt-2 md:w-1/2'>
-                <h1 className='font-bold text-5xl mt-6 md:text-7xl md:mt-0'>Hi, I'm Jonathan!</h1>
+                <h1 className='font-bold text-5xl mt-6 md:text-7xl md:mt-0'>Hi, I&#39;m Jonathan!</h1>
                 <p className="text-lg mt-4 mb-6 md:text-2xl">
-                    I'm a passionate {" "}
+                    I&#39;m a passionate {" "}
                     <span className='font-semibold text-sky-500'>
                     Computer Science student {" "}
                     </span>
