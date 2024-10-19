@@ -1,17 +1,29 @@
 import React from 'react'
 
-const skills = [
+const programming = [
   { skill: "Python" },
   { skill: "Java" },
   { skill: "JavaScript" },
+  { skill: "C" },
+  { skill: "Django" },
+  { skill: "Flask" },
   { skill: "React" },
   { skill: "Node" },
-  { skill: "Next.js" },
   { skill: "Tailwind CSS" },
-  { skill: "OpenCV" },
-  { skill: "SQL" },
+  { skill: "Material UI" },
   { skill: "Bash" },
+  { skill: "SQL" },
+  { skill: "OpenCV" },
+  { skill: "NumPy" },  
+]
+
+const tools = [
   { skill: "Git" },
+  { skill: "Visual Studio Code" },
+  { skill: "Pycharm" },
+  { skill: "IntelliJ" },
+  { skill: "Figma" },
+  { skill: "Jira" },
 ]
 
 const About = () => {
@@ -20,7 +32,7 @@ const About = () => {
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className='text-center font-bold text-4xl'>
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded" />
+          <hr className="w-6 h-1 mx-auto my-4 bg-sky-500 border-0 rounded" />
         </h1>
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className='md:w-1/2'>
@@ -29,7 +41,7 @@ const About = () => {
             </h1>
             <p>
               Hi, my name is Jonathan Lam and I am a second-year {" "}
-              <span className='font-semibold text-teal-600'>
+              <span className='font-semibold text-sky-500'>
                 Computer Science and Data Science student {" "}
               </span>
               at the University of Virginia.
@@ -49,13 +61,25 @@ const About = () => {
           </div>
           <div className='md:w-1/2'>
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              My Skills
+              What I Use 💻
             </h1>
+            <h2 className="text-center text-xl font-bold mb-2 md:text-left">Programming</h2>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
+              {programming.map((item, idx) => {
                 return <p 
                         key={idx}
-                        className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-black rounded font-semibold"
+                        className="bg-gray-200 px-3 py-2 mr-2 mt-2 text-black rounded font-semibold"
+                        >
+                          {item.skill}
+                        </p>
+              })}
+            </div>
+            <h2 className="text-center text-xl font-bold mt-6 mb-2 md:text-left">Development Tools</h2>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {tools.map((item, idx) => {
+                return <p 
+                        key={idx}
+                        className="bg-gray-200 px-3 py-2 mr-2 mt-2 text-black rounded font-semibold"
                         >
                           {item.skill}
                         </p>
