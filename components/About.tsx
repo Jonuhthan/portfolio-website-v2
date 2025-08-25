@@ -41,7 +41,7 @@ const About = () => {
             </h1>
             <div className='text-xl'>
               <p>
-                I&#39;m a second-year student at the University of Virginia studying Computer Science, with a minor in Data Science.
+                I&#39;m a third-year student at the University of Virginia studying Computer Science, with a minor in Data Science.
                 My interest in Computer Science stems from a passion for problem-solving and being able to make a positive impact on others through innovation and automation.
                 
               </p>
