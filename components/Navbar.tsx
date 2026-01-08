@@ -16,7 +16,9 @@ interface NavItem {
 // define array of said defined nav items for mapping later on
 const NAV_ITEMS: NavItem[] = [
   { label: "Home", page: "home" },
-  { label: "About", page: "about" },
+  { label: "Education", page: "education" },
+  { label: "Experience", page: "experience" },
+  { label: "Skills", page: "skills" },
   { label: "Projects", page: "projects" },
 ];
 
@@ -50,7 +52,7 @@ const Navbar = () => {
         </div>
 
         {/* center section with nav menu subsections */}
-        <nav className="hidden md:flex flex-1 justify-center gap-16">
+        <nav className="hidden md:flex flex-1 justify-center gap-10">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.page}
