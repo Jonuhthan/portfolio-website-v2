@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 
 export const metadata = {
   link: "/favicon.ico",
-  title: "Jonathan Lam",
+  title: "Jonathan Lam's Portfolio",
   description: "My personal portfolio page!",
 }
 
