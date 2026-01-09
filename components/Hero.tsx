@@ -44,21 +44,21 @@ const Hero = () => {
                     {/* mail icon */}
                     <a
                         href='mailto:jonhaolam@gmail.com'
-                        className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
+                        className="hover:bg-neutral-300 bg-slate-200 p-2 rounded-xl"
                     >
                         <AiOutlineMail size={30} color='black' />
                     </a>
                     {/* github */}
                     <a
                         href='https://github.com/Jonuhthan'
-                        className='hover:text-neutral-500 bg-slate-100 p-2 rounded-xl'
+                        className='hover:bg-neutral-300 bg-slate-200 p-2 rounded-xl'
                     >
                         <AiOutlineGithub size={30} color='black' />
                     </a>
                     {/* linkedin */}
                     <a
                         href='https://www.linkedin.com/in/jonathanlam2'
-                        className='hover:text-neutral-500 bg-slate-100 p-2 rounded-xl'
+                        className='hover:bg-neutral-300 bg-slate-200 p-2 rounded-xl'
                     >
                         <AiOutlineLinkedin size={30} color='black' />
                     </a>

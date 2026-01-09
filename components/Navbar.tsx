@@ -5,7 +5,6 @@ import { Link } from "react-scroll/modules";
 import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 
 // define what every nav item should have
 interface NavItem {
@@ -69,44 +68,18 @@ const Navbar = () => {
           ))}
         </nav>
 
-        {/* right section with theme & github/linkedin */}
+        {/* right section with theme button */}
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href="https://github.com/Jonuhthan"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
-          >
-            {currentTheme === "dark" ? (
-              <AiOutlineGithub size={24} color="black" />
-            ) : (
-              <AiOutlineGithub size={24} />
-            )}
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/jonathanlam2/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
-          >
-            {currentTheme === "dark" ? (
-              <AiOutlineLinkedin size={24} color="black" />
-            ) : (
-              <AiOutlineLinkedin size={24} />
-            )}
-          </a>
-
           <button
             onClick={() =>
               setTheme(currentTheme === "dark" ? "light" : "dark")
             }
-            className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
+            className="hover:bg-neutral-300 bg-slate-200 p-2 rounded-xl"
           >
             {currentTheme === "dark" ? (
-              <RiSunLine size={22} color="black" />
+              <RiSunLine size={30} color="black" />
             ) : (
-              <RiMoonFill size={22} />
+              <RiMoonFill size={30} />
             )}
           </button>
         </div>
@@ -130,44 +103,18 @@ const Navbar = () => {
             </Link>
           ))}
 
-          {/* theme & socials buttons */}
+          {/* theme button mobile */}
           <div className="flex items-center gap-6">
-            <a
-              href="https://github.com/Jonuhthan"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
-            >
-              {currentTheme === "dark" ? (
-                <AiOutlineGithub size={24} color="black" />
-              ) : (
-                <AiOutlineGithub size={24} />
-              )}
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/jonathanlam2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-neutral-500 bg-slate-100 p-2 rounded-xl"
-            >
-              {currentTheme === "dark" ? (
-                <AiOutlineLinkedin size={24} color="black" />
-              ) : (
-                <AiOutlineLinkedin size={24} />
-              )}
-            </a>
-
             <button
               onClick={() =>
                 setTheme(currentTheme === "dark" ? "light" : "dark")
               }
-              className="bg-slate-100 p-2 rounded-xl"
+              className="hover:bg-neutral-300 bg-slate-200 p-2 rounded-xl"
             >
               {currentTheme === "dark" ? (
-                <RiSunLine size={22} color="black" />
+                <RiSunLine size={30} color="black" />
               ) : (
-                <RiMoonFill size={22} />
+                <RiMoonFill size={30} />
               )}
             </button>
           </div>
