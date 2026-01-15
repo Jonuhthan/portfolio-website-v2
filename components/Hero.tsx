@@ -10,11 +10,11 @@ const Hero = () => {
   return (
     <section id='home' className='min-h-screen flex flex-col gap-10 items-center justify-center pt-24'>
         {/* container for entire hero section content */}
-        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-4 md:flex-row md:space-x-4 md:text-left">
+        <div className="flex flex-col max-w-4xl text-center items-center justify-center animate-fadeIn animation-delay-4 md:flex-row md:space-x-4 md:text-left">
 
             {/* container for profile picture */}
             <div className="md:mt-2 md:w-1/2">
-                <Image className='rounded-3xl shadow-2xl' src="/profile.jpg" alt="missing" width={350} height={350}/>
+                <Image className='rounded-3xl shadow-2xl' src="/profile.jpg" alt="profile picture" width={350} height={350}/>
             </div>
 
             <div className='md:mt-2 md:w-1/2'>
@@ -70,7 +70,7 @@ const Hero = () => {
         {/* arrow icon leading to education */}
         <div className="flex flex-row items-center text-center justify-center ">
             <Link
-                to="about"
+                to="education"
                 activeClass="active"
                 spy={true}
                 smooth={true}
