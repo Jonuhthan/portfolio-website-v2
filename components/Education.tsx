@@ -22,7 +22,7 @@ const Education = () => {
                             University of Virginia
                         </h1>
 
-                        <p className="text-lg text-neutral-600">
+                        <p className="text-lg text-neutral-600 dark:text-neutral-400">
                             The College of Arts & Sciences
                         </p>
 
@@ -39,7 +39,7 @@ const Education = () => {
                         {/* coursework list */}
                         <div className="mt-6">
                             <h3 className="font-semibold mb-2">Relevant Coursework</h3>
-                            <ul className="list-disc list-inside space-y-1 text-neutral-700">
+                            <ul className="list-disc list-inside space-y-1 text-neutral-600 dark:text-neutral-400">
                                 <li>Data Structures & Algorithms</li>
                                 <li>Discrete Mathematics and Theory</li>
                                 <li>Computer Systems & Organization</li>

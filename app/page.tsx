@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Education from "../components/Education";
+import Experience from "../components/Experience";
 import About from "../components/About";
 import Projects from "../components/Projects";
 
@@ -15,6 +16,7 @@ export default function Home() {
         <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-6xl">
             <Hero />
             <Education />
+            <Experience />
             <About />
             <Projects />
         </main>
