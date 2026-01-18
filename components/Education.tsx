@@ -40,7 +40,7 @@ const Education = () => {
 
                             {/* coursework list */}
                             <div className="mt-6">
-                                <h3 className="font-semibold mb-2">Relevant Coursework</h3>
+                                <h3 className="text-2xl font-semibold mb-2">Relevant Coursework</h3>
                                 <ul className="list-disc list-inside space-y-1 text-neutral-600 dark:text-neutral-400">
                                     <li>Data Structures & Algorithms</li>
                                     <li>Discrete Mathematics and Theory</li>
