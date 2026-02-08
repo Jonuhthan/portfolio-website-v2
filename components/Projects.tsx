@@ -6,6 +6,13 @@ import SlideUp from './SlideUp';
 
 const projectsList = [
     {
+        name: "calview",
+        description: "Vite, FastAPI, PostgreSQL web application hosted on AWS S3, CloudFront, and EC2 to upload and parse .ics calendar files to visualize university student schedules and share with others.",
+        image: "/calview.png",
+        github: "https://github.com/kyle-luong/calview",
+        link: "https://calview.me/",
+    },
+    {
         name: "RateMate",
         description: "Next.js, Pinecone, and Google Gemini web application with query and filter functionality on professor review data and RAG-AI chatbot for personalized suggestions.",
         image: "/RateMate.png",
