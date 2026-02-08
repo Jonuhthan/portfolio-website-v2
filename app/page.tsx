@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "../components/Hero";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
-import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 
@@ -18,7 +17,6 @@ export default function Home() {
             <Hero />
             <Education />
             <Experience />
-            <About />
             <Skills />
             <Projects />
         </main>
