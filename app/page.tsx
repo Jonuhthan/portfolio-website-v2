@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import About from "../components/About";
+import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 
 export const metadata = {
@@ -18,6 +19,7 @@ export default function Home() {
             <Education />
             <Experience />
             <About />
+            <Skills />
             <Projects />
         </main>
     );

@@ -35,7 +35,7 @@ const Experience = () => {
     return (
         <section 
             id="experience"
-            className="min-h-screen flex flex-col items-center"
+            className="min-h-screen flex flex-col items-center mb-20"
         >
             {/* title */}
             <h1 className="text-center font-bold text-4xl">
