@@ -41,14 +41,16 @@ const Education = () => {
                             {/* coursework list */}
                             <div className="mt-6">
                                 <h3 className="text-2xl font-semibold mb-2">Relevant Coursework</h3>
-                                <ul className="list-disc list-inside space-y-1 text-neutral-600 dark:text-neutral-400">
-                                    <li>Data Structures & Algorithms</li>
-                                    <li>Discrete Mathematics and Theory</li>
-                                    <li>Computer Systems & Organization</li>
-                                    <li>Software Testing</li>
-                                    <li>Foundations of Machine Learning</li>
-                                    <li>Data Science Systems</li>
-                                </ul>
+                                <div className="flex justify-center md:justify-start">
+                                    <ul className="list-disc list-inside text-left space-y-1 text-neutral-600 dark:text-neutral-400">
+                                        <li>Data Structures & Algorithms</li>
+                                        <li>Discrete Mathematics and Theory</li>
+                                        <li>Computer Systems & Organization</li>
+                                        <li>Software Testing</li>
+                                        <li>Foundations of Machine Learning</li>
+                                        <li>Data Science Systems</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
