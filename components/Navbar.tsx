@@ -35,9 +35,9 @@ const Navbar = () => {
             <div className="flex items-center justify-between h-16">
 
                 {/* left side, title and menu button */}
-                <div className="flex items-center justify-between w-full md:w-auto gap-4">
+                <div className="flex items-center justify-between md:justify-start w-full md:w-1/3 gap-4">
                     <Link to="home" smooth duration={500}>
-                        <h2 className="text-2xl font-bold cursor-pointer">
+                        <h2 className="text-2xl font-bold cursor-pointer whitespace-nowrap">
                             Jonathan Lam
                         </h2>
                     </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 </nav>
 
                 {/* right section with theme button */}
-                <div className="hidden md:flex items-center gap-4">
+                <div className="hidden md:flex items-center justify-end gap-4 md:w-1/3">
                     <button
                         onClick={() =>
                             setTheme(currentTheme === "dark" ? "light" : "dark")
