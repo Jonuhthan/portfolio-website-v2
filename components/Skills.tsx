@@ -31,7 +31,8 @@ const tools = [
 ]
 
 const certifications = [
-    { skill: "CompTIA ITF+", path: "/icons/itf+.png", url: "https://www.credly.com/badges/8c4cc210-bc96-4404-9e83-200407a24cc3/public_url"}
+    { skill: "CompTIA ITF+", path: "/icons/itf+.png", url: "https://www.credly.com/badges/8c4cc210-bc96-4404-9e83-200407a24cc3/public_url"},
+    { skill: "AWS Cloud Practitioner", path: "/icons/cloud_practitioner.png", url: "https://www.credly.com/badges/ee8dccb0-9c81-41fd-b206-7b33c9ef5fc7/public_url"}
 ]
 
 const Skills = () => {
@@ -108,22 +109,26 @@ const Skills = () => {
 		        </div>
 
                 {/* certifications */}
-                <div className='md:w-1/3'>
+                <div className='w-full md:w-1/3'>
                     <h1 className="text-center text-2xl font-bold mb-6">
                     Certifications
                     </h1>
                     
                     {/* icon/url container */}
-                    <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+                    <div className="grid grid-cols-2 gap-2 justify-center z-10 md:justify-start">
                         {certifications.map((item, idx) => {
                             return (
-                                <Link key={idx} href={item.url} target='_blank'>
+                                <Link 
+                                    key={idx}
+                                    href={item.url} 
+                                    target='_blank'
+                                    className="relative aspect-square block"
+                                >
                                     <Image
                                         alt={item.skill}
                                         src={item.path}
-                                        width={400}
-                                        height={400}
-                                        className="bg-gray-200 px-3 py-2 mr-2 mt-2 text-black rounded hover:-translate-y-1 transition-transform cursor-pointer"
+                                        fill
+                                        className="object-contain bg-gray-200 px-3 py-2 mr-2 mt-2 text-black rounded hover:-translate-y-1 transition-transform cursor-pointer"
                                     />
                                 </Link>
                             )
